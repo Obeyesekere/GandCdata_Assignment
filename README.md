@@ -1,11 +1,16 @@
 ==================================================================
 Output dataset for Assignment - Getting and Cleaning Data
 ================================================================== 
+
 Creator: Anthony Obeyesekere
+
 Date: 23 Nov 2014
+
 Location: New Zealand
+
 ==================================================================
 Description: 
+
 This newdata dataset is the result of data manipulation undertaken upon the following original dataset: Human Activity Recognition Using Smartphones Dataset. 
 
 The original data can be found here: http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
@@ -34,6 +39,7 @@ The dataset contains 180 rows and 68 columns.
 In each row, data is provided on student ID, an activity name, and corresponding averages for 66 measurements. 
 
 For more information about the data content please refer to the Codebook. 
+
 ==================================================================
 Explanation of run_analysis.R:
 
