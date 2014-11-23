@@ -58,6 +58,8 @@ Section 3. Variables
 
 The data is of a long format. The variables and their corresponding column numbers are as follows: 
 
+Note: Variables 3 through to 68 are numeric types, representing averages of measurements as described in Section 2. 
+
 1. student_ID
 	Takes values 1 through to 30. 
 
@@ -68,9 +70,6 @@ The data is of a long format. The variables and their corresponding column numbe
 , SITTING
 , STANDING
 , LAYING
-
-
-All the following variables are numeric types, representing averages of measurements as described in Section 2. 
 
 3. tBodyAcc-mean()-X
 
