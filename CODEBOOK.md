@@ -1,17 +1,23 @@
 ==================================================================
 Codebook for data in newdata.txt
 ==================================================================
-1. Overview
+Section 1. Overview
 
 The newdata.txt dataset contains data on 30 students. 
+
 Each student is recorded undertaking 6 different types of activities. 
+
 For each of these 6 activities that a student undertakes, averages for 66 different measurements are provided.  
+
 Details of the 66 measurements are provided in Section 2 below. 
-==================================================================
-2. The 66 measurements
+
+
+Section 2. The 66 measurements
 
 The measurements come from accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
 These signals were used to estimate variables of the feature vector for each pattern:  
@@ -36,10 +42,13 @@ fBodyGyroMag
 fBodyGyroJerkMag
 
 When accounting for the X, Y, and Z variants, there are 33 variables listed here. 
+
 For a given student and activity, newdata.txt provides the mean and standard deviation for each of these 33 variables. 
+
 This gives us 66 variables associated with each unique student and activity combination. 
-==================================================================
-3. Variables 
+
+
+Section 3. Variables 
 
 The data is of a long format. The variables and their corresponding column numbers are as follows: 
 
