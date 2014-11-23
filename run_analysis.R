@@ -33,6 +33,8 @@ newdata <- as.data.frame(setNames(replicate(68,numeric(0), simplify = F), letter
 colnames(newdata) <- colnames(data) #give the new dataframe the appropriate column headings 
 row_counter <- as.integer(0) #this counter will keep track of row number when storing data in the loop
 
+#We use a nested for loop to calculate averages of different measurements, for each unique student_ID and activity_name combination. 
+#These are saved in our new dataframe 
 for (j in 1:30){
       stu_data <- data[data$student_ID == j,] # get all records for a given student ID
       
