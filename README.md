@@ -7,7 +7,9 @@ Location: New Zealand
 ==================================================================
 Description: 
 This newdata dataset is the result of data manipulation undertaken upon the following original dataset: Human Activity Recognition Using Smartphones Dataset. 
+
 The original data can be found here: http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
+
 A description of that original dataset can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The data manipulations that were performed on the original dataset can be summarised as follows: 
