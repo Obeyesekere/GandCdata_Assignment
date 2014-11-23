@@ -2,6 +2,8 @@
 Codebook for data in newdata.txt
 ==================================================================
 Section 1. Overview
+==================================================================
+
 
 The newdata.txt dataset contains data on 30 students. 
 
@@ -47,8 +49,10 @@ For a given student and activity, newdata.txt provides the mean and standard dev
 
 This gives us 66 variables associated with each unique student and activity combination. 
 
-
+==================================================================
 Section 3. Variables 
+==================================================================
+
 
 The data is of a long format. The variables and their corresponding column numbers are as follows: 
 
@@ -64,7 +68,7 @@ The data is of a long format. The variables and their corresponding column numbe
 , LAYING
 
 
-#All the following variables are numeric types, representing averages of measurements as described in Section 2. 
+All the following variables are numeric types, representing averages of measurements as described in Section 2. 
 
 3. tBodyAcc-mean()-X
 4. tBodyAcc-mean()-Y
